@@ -1,0 +1,19 @@
+## Dog Wars Javascript Console Hacks
+
+/ Update Biscuits #Changes amount of biscuits (Not on server. May lead to working hack)
+
+ // Enter into JS Console.
+ Status.updateBiscuits(9999);
+ 
+ ==========
+ 
+/ Create Account with Gladiator Dog (Husky)
+Create new account , Choose a dog but dont submit. Right click submit look for the onclick event. you'll see it has a number in the code parmeters change it to 14.
+You will now start the game with a Husky Which is a Gladiator Dog.
+
+The code will look something like
+
+CORE.charClick(this, '14')
+
+=========
+
